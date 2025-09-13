@@ -1,0 +1,24 @@
+{
+  "name": "instructor_token_transformer",
+  "version": "1.0.0",
+  "description": "Esta aplicación web es realizada con javascript vanilla; su objetivo es transformar el formato de tabla de un archivo de excel escogido y con formato único según el negocio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KortexCode/instructor_token_transformer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KortexCode/instructor_token_transformer/issues"
+  },
+  "homepage": "https://github.com/KortexCode/instructor_token_transformer#readme",
+  "devDependencies": {
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1"
+  }
+}

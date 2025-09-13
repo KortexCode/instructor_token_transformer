@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/styles/main.css">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+       <h1>Token test</h1>
+   </header>
+    <main>
+        <section class="compare-excels-section">
+            <h2>Upload Excels files to compare</h2>
+            <div class="input-group-container">
+                <div class="input-group">
+                    <label for="inputExcel"> Upload original Excel</label>
+                    <input type="file" id="inputExcel" />
+                </div>
+                <div class="input-group">
+                    <label for="inputExcel2"> Upload Excel to compare</label>
+                    <input type="file" id="inputExcel2" />
+                </div>
+                <button class="btn-compare">Compare Excels</button>
+            </div>
+
+            <p class="compare-excels__explain-text">This get the tokens missing in Excel file 2</p>
+            <pre id="output"></pre>
+        </section>  
+    </main>
+    
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
