@@ -37,3 +37,11 @@ header {
     width: auto;
     padding: 8px;
 }
+.token-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.token-list li{
+    margin-bottom: 8px;
+}
